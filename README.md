@@ -37,6 +37,16 @@ Without going into the technical details, the mathematical function guarantees t
 
 # AES Implementation in Python Using PyCryptodome
 
+## ECB (Electronic Code Book) mode (AES-ECB)
+Each 16-byte block of plaintext is encrypted independently. This mode is not advised as it’s the least secure.
+
+### Pros:
+- Simplest
+
+### Cons:
+- Weakest cipher
+- Padding needed to fit the data into 16-byte blocks
+
 # Reference:
 https://onboardbase.com/blog/aes-encryption-decryption/#:~:text=AES%20is%20an%20encoding%20algorithm,
 store%20passwords%20in%20a%20database.
