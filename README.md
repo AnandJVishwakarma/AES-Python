@@ -37,6 +37,14 @@ Without going into the technical details, the mathematical function guarantees t
 
 # AES Implementation in Python Using PyCryptodome
 
+## - ECB (Electronic Code Book) mode (AES-ECB)
+## - CBC (Cipher Block Chaining) mode (AES-CBC)
+## - CFB (Cipher FeedBack) mode (AES-CFB)
+## - OFB (Output FeedBack) mode (AES-OFB)
+## - CTR (Counter) mode (AES-CTR)
+## - GCM (Galois Counter Mode) mode (AES-GCM)
+## - EAX (Encrypt-then-authenticate-then-translate) mode (EAX)
+
 ## ECB (Electronic Code Book) mode (AES-ECB)
 Each 16-byte block of plaintext is encrypted independently. This mode is not advised as it’s the least secure.
 
