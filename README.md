@@ -196,5 +196,4 @@ plain_text = decrypt_cipher.decrypt_and_verify(cipher_text, tag)
 ```
 
 # Reference:
-https://onboardbase.com/blog/aes-encryption-decryption/#:~:text=AES%20is%20an%20encoding%20algorithm,
-store%20passwords%20in%20a%20database.
+https://onboardbase.com/blog/aes-encryption-decryption/#:~:text=AES%20is%20an%20encoding%20algorithm
