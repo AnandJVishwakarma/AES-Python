@@ -47,6 +47,10 @@ Each 16-byte block of plaintext is encrypted independently. This mode is not adv
 - Weakest cipher
 - Padding needed to fit the data into 16-byte blocks
 
+```python
+cipher = AES.new(key, AES.MODE_ECB)
+```
+
 # Reference:
 https://onboardbase.com/blog/aes-encryption-decryption/#:~:text=AES%20is%20an%20encoding%20algorithm,
 store%20passwords%20in%20a%20database.
